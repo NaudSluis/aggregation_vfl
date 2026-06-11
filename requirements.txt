@@ -1,0 +1,11 @@
+pandas
+numpy
+torch
+typing
+dask[dataframe]
+polars
+tensorboard
+matplotlib
+optuna
+neuralforecast
+scikit-learn
