@@ -671,7 +671,7 @@ def main(tune=False):
                         help='Sigma Eps')
     
     parser.add_argument('--grad-clip', type=float, default=5,
-                        help='GRadient Clipping norm')
+                        help='Gradient Clipping norm')
     
     parser.add_argument('--patience', type=int, default=5,
                         help='Patience for early stopping')
