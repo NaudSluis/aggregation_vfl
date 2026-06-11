@@ -1,0 +1,53 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.Python
+*.egg
+
+# Data and model files
+*.csv
+*.parquet
+*.zip
+*.pth
+*.pt
+
+
+# Training outputs and logs
+runs/
+*/run_output/
+train_output_*/
+final_lstm_dataset_target_scaled/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+.gitkeep
+
+# Experiment and training outputs
+central_*/
+vfl_*/
+dlinear_*/
+diff_seed_*/
+final_lstm_*/
+*_jobs/
+train_output_*/
+checkpoints/
+
+# Large directories
+data/
